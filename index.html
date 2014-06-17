@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>iBetcha</title>
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+
+<body>
+	
+	<!--Data role sets this div as the main page of the application-->
+	<div data-role="page" id="page1">
+		<div data-role="header">
+			
+		</div>
+		
+		<!--<div data-role="navbar">
+			<ul>
+				<li>
+					<a href="#page1" data-icon="gear"> Home </a>
+				</li>
+				<li>
+					<a href="#page2" data-icon="edit"> Contact </a>
+				</li>
+			</ul>
+		</div>-->
+		
+		<div data-role="main" class="ui-content">
+			
+			<img src="images/logo.png" />
+			
+			<div data-role="collapsible">
+				<h1>Login</h1>
+				<p>Look at my past work</p>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h2>&copy; Tony Quigley 2014</h2>
+		</div>
+	</div>
+	
+	<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+	
+	<div data-role="page" id="page2">
+		<div data-role="header">
+			<h1>My second page</h1>
+			<div data-role="navbar">
+			<ul>
+				<li>
+					<a href="#page1" data-icon="gear"> Home </a>
+				</li>
+				<li>
+					<a href="#page2" data-icon="edit"> Contact </a>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			<h1>Contact Me</h1>
+			<form>
+				<label for="essay">Tell us what you think :)</label>
+				<textarea name="essay" id="essay"></textarea>
+				<label for="range">Rate us out  of 10!</label>
+				<input type="range" name="rate" id="rate" min="0" max="10" />
+				<input type="submit" name="go" id="go" value="Submit" />
+			</form>
+		</div>
+		<div data-role="footer">
+			&copy; Tony Quigley 2014
+		</div>
+	</div>
+	
+</body>
+	
+	
+</html>

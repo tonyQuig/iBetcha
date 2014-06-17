@@ -1,0 +1,12 @@
+body div{
+	background-image: url("images/greyBG.jpg");
+}
+
+div img{
+	margin: 0 auto;
+	display: block;
+}
+
+div h2{
+	color: #fff;
+}
